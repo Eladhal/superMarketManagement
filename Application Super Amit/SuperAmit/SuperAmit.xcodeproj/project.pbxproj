@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8075124A418EB68A6263E46B /* Pods_SuperAmit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8C73CBEC2D19B37355F343 /* Pods_SuperAmit.framework */; };
+		AE006C111D4F587D003BA6DC /* Last invitation cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE006C101D4F587D003BA6DC /* Last invitation cell.swift */; };
+		AE006C131D5672B7003BA6DC /* UpdateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE006C121D5672B7003BA6DC /* UpdateInfo.swift */; };
+		AE006C151D584E87003BA6DC /* Discount campaign cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE006C141D584E87003BA6DC /* Discount campaign cell.swift */; };
+		AE006C171D585363003BA6DC /* DiscountCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE006C161D585363003BA6DC /* DiscountCampaign.swift */; };
+		AE006C191D58A314003BA6DC /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE006C181D58A314003BA6DC /* ClientService.swift */; };
+		AE006C1B1D5A1479003BA6DC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE006C1A1D5A1479003BA6DC /* Location.swift */; };
+		AE196D2A1D3A5134007FBA94 /* Shopping List Before Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE196D291D3A5134007FBA94 /* Shopping List Before Payment.swift */; };
+		AE22DE541D23E45700F304FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DE531D23E45700F304FB /* AppDelegate.swift */; };
+		AE22DE561D23E45700F304FB /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DE551D23E45700F304FB /* Login.swift */; };
+		AE22DE591D23E45700F304FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE22DE571D23E45700F304FB /* Main.storyboard */; };
+		AE22DE5B1D23E45700F304FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE22DE5A1D23E45700F304FB /* Assets.xcassets */; };
+		AE22DE5E1D23E45700F304FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE22DE5C1D23E45700F304FB /* LaunchScreen.storyboard */; };
+		AE22DE691D23E45800F304FB /* SuperAmitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DE681D23E45800F304FB /* SuperAmitTests.swift */; };
+		AE22DE741D23E45800F304FB /* SuperAmitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DE731D23E45800F304FB /* SuperAmitUITests.swift */; };
+		AE22DE861D2A5C4B00F304FB /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22DE851D2A5C4B00F304FB /* Register.swift */; };
+		AE22DE881D2A836800F304FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE22DE871D2A836800F304FB /* GoogleService-Info.plist */; };
+		AE4D862E1D33A895001E1FEF /* Buying online cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D862D1D33A895001E1FEF /* Buying online cell.swift */; };
+		AE4D86321D34CD41001E1FEF /* Products List.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D86311D34CD41001E1FEF /* Products List.swift */; };
+		AE4D86341D34D424001E1FEF /* Product List Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D86331D34D424001E1FEF /* Product List Cell.swift */; };
+		AE4D86391D350FC0001E1FEF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D86381D350FC0001E1FEF /* Product.swift */; };
+		AE4D863B1D35FFFE001E1FEF /* ListOfProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D863A1D35FFFE001E1FEF /* ListOfProducts.swift */; };
+		AEC053FA1D3DF8FE00940276 /* Shopping List cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC053F91D3DF8FE00940276 /* Shopping List cell.swift */; };
+		AEC053FD1D464CF600940276 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC053FC1D464CF600940276 /* Payment.swift */; };
+		AEF445441D2D4A0B004B4E2E /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF445431D2D4A0B004B4E2E /* ForgotPassword.swift */; };
+		AEF445461D2E7310004B4E2E /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF445451D2E7310004B4E2E /* MainPage.swift */; };
+		AEF445481D3241E8004B4E2E /* Buying online.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF445471D3241E8004B4E2E /* Buying online.swift */; };
+		AEF4454A1D324234004B4E2E /* Last invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF445491D324234004B4E2E /* Last invitation.swift */; };
+		AEF4454C1D324691004B4E2E /* MainPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF4454B1D324691004B4E2E /* MainPageCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE22DE651D23E45800F304FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE22DE481D23E45700F304FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE22DE4F1D23E45700F304FB;
+			remoteInfo = SuperAmit;
+		};
+		AE22DE701D23E45800F304FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE22DE481D23E45700F304FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE22DE4F1D23E45700F304FB;
+			remoteInfo = SuperAmit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E8DCF9D21E58D366E7621F /* Pods_SuperAmitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperAmitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA352754433C1AD1287BF55 /* Pods-SuperAmit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAmit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperAmit/Pods-SuperAmit.debug.xcconfig"; sourceTree = "<group>"; };
+		3D8C73CBEC2D19B37355F343 /* Pods_SuperAmit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperAmit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA70D7A6F0BF9ADD93FF8F9 /* Pods-SuperAmit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperAmit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperAmit/Pods-SuperAmit.release.xcconfig"; sourceTree = "<group>"; };
+		AE006C101D4F587D003BA6DC /* Last invitation cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Last invitation cell.swift"; sourceTree = "<group>"; };
+		AE006C121D5672B7003BA6DC /* UpdateInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfo.swift; sourceTree = "<group>"; };
+		AE006C141D584E87003BA6DC /* Discount campaign cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Discount campaign cell.swift"; sourceTree = "<group>"; };
+		AE006C161D585363003BA6DC /* DiscountCampaign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscountCampaign.swift; sourceTree = "<group>"; };
+		AE006C181D58A314003BA6DC /* ClientService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
+		AE006C1A1D5A1479003BA6DC /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		AE196D291D3A5134007FBA94 /* Shopping List Before Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Shopping List Before Payment.swift"; sourceTree = "<group>"; };
+		AE22DE501D23E45700F304FB /* SuperAmit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperAmit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE22DE531D23E45700F304FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE22DE551D23E45700F304FB /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		AE22DE581D23E45700F304FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE22DE5A1D23E45700F304FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE22DE5D1D23E45700F304FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE22DE5F1D23E45700F304FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE22DE641D23E45800F304FB /* SuperAmitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperAmitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE22DE681D23E45800F304FB /* SuperAmitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperAmitTests.swift; sourceTree = "<group>"; };
+		AE22DE6A1D23E45800F304FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE22DE6F1D23E45800F304FB /* SuperAmitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperAmitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE22DE731D23E45800F304FB /* SuperAmitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperAmitUITests.swift; sourceTree = "<group>"; };
+		AE22DE751D23E45800F304FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE22DE851D2A5C4B00F304FB /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		AE22DE871D2A836800F304FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE4D862D1D33A895001E1FEF /* Buying online cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Buying online cell.swift"; sourceTree = "<group>"; };
+		AE4D86311D34CD41001E1FEF /* Products List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Products List.swift"; sourceTree = "<group>"; };
+		AE4D86331D34D424001E1FEF /* Product List Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Product List Cell.swift"; sourceTree = "<group>"; };
+		AE4D86381D350FC0001E1FEF /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AE4D863A1D35FFFE001E1FEF /* ListOfProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfProducts.swift; sourceTree = "<group>"; };
+		AEC053F91D3DF8FE00940276 /* Shopping List cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Shopping List cell.swift"; sourceTree = "<group>"; };
+		AEC053FC1D464CF600940276 /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		AEF445431D2D4A0B004B4E2E /* ForgotPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		AEF445451D2E7310004B4E2E /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		AEF445471D3241E8004B4E2E /* Buying online.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Buying online.swift"; sourceTree = "<group>"; };
+		AEF445491D324234004B4E2E /* Last invitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Last invitation.swift"; sourceTree = "<group>"; };
+		AEF4454B1D324691004B4E2E /* MainPageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageCell.swift; sourceTree = "<group>"; };
+		F482A2AF3C4CCE79437D1DF7 /* Pods_SuperAmitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperAmitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE22DE4D1D23E45700F304FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8075124A418EB68A6263E46B /* Pods_SuperAmit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE22DE611D23E45800F304FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE22DE6C1D23E45800F304FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A641AAB8808884F02F619561 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FA352754433C1AD1287BF55 /* Pods-SuperAmit.debug.xcconfig */,
+				3FA70D7A6F0BF9ADD93FF8F9 /* Pods-SuperAmit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE22DE471D23E45700F304FB = {
+			isa = PBXGroup;
+			children = (
+				AE22DE521D23E45700F304FB /* SuperAmit */,
+				AE22DE671D23E45800F304FB /* SuperAmitTests */,
+				AE22DE721D23E45800F304FB /* SuperAmitUITests */,
+				AE22DE511D23E45700F304FB /* Products */,
+				A641AAB8808884F02F619561 /* Pods */,
+				F653C807A7A4707A75CABE39 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE22DE511D23E45700F304FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE22DE501D23E45700F304FB /* SuperAmit.app */,
+				AE22DE641D23E45800F304FB /* SuperAmitTests.xctest */,
+				AE22DE6F1D23E45800F304FB /* SuperAmitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE22DE521D23E45700F304FB /* SuperAmit */ = {
+			isa = PBXGroup;
+			children = (
+				AEC053FB1D3DF9D600940276 /* Cells */,
+				AE4D86351D350F54001E1FEF /* Classes */,
+				AE22DE531D23E45700F304FB /* AppDelegate.swift */,
+				AE22DE551D23E45700F304FB /* Login.swift */,
+				AE22DE571D23E45700F304FB /* Main.storyboard */,
+				AEF445451D2E7310004B4E2E /* MainPage.swift */,
+				AE22DE5A1D23E45700F304FB /* Assets.xcassets */,
+				AE22DE5C1D23E45700F304FB /* LaunchScreen.storyboard */,
+				AE22DE5F1D23E45700F304FB /* Info.plist */,
+				AE22DE851D2A5C4B00F304FB /* Register.swift */,
+				AE22DE871D2A836800F304FB /* GoogleService-Info.plist */,
+				AEF445431D2D4A0B004B4E2E /* ForgotPassword.swift */,
+				AEF445471D3241E8004B4E2E /* Buying online.swift */,
+				AE4D86311D34CD41001E1FEF /* Products List.swift */,
+				AE196D291D3A5134007FBA94 /* Shopping List Before Payment.swift */,
+				AEC053FC1D464CF600940276 /* Payment.swift */,
+				AEF445491D324234004B4E2E /* Last invitation.swift */,
+				AE006C121D5672B7003BA6DC /* UpdateInfo.swift */,
+				AE006C161D585363003BA6DC /* DiscountCampaign.swift */,
+				AE006C181D58A314003BA6DC /* ClientService.swift */,
+				AE006C1A1D5A1479003BA6DC /* Location.swift */,
+			);
+			path = SuperAmit;
+			sourceTree = "<group>";
+		};
+		AE22DE671D23E45800F304FB /* SuperAmitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE22DE681D23E45800F304FB /* SuperAmitTests.swift */,
+				AE22DE6A1D23E45800F304FB /* Info.plist */,
+			);
+			path = SuperAmitTests;
+			sourceTree = "<group>";
+		};
+		AE22DE721D23E45800F304FB /* SuperAmitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE22DE731D23E45800F304FB /* SuperAmitUITests.swift */,
+				AE22DE751D23E45800F304FB /* Info.plist */,
+			);
+			path = SuperAmitUITests;
+			sourceTree = "<group>";
+		};
+		AE4D86351D350F54001E1FEF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE4D86381D350FC0001E1FEF /* Product.swift */,
+				AE4D863A1D35FFFE001E1FEF /* ListOfProducts.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AEC053FB1D3DF9D600940276 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AEF4454B1D324691004B4E2E /* MainPageCell.swift */,
+				AE4D862D1D33A895001E1FEF /* Buying online cell.swift */,
+				AE4D86331D34D424001E1FEF /* Product List Cell.swift */,
+				AEC053F91D3DF8FE00940276 /* Shopping List cell.swift */,
+				AE006C101D4F587D003BA6DC /* Last invitation cell.swift */,
+				AE006C141D584E87003BA6DC /* Discount campaign cell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		F653C807A7A4707A75CABE39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D8C73CBEC2D19B37355F343 /* Pods_SuperAmit.framework */,
+				F482A2AF3C4CCE79437D1DF7 /* Pods_SuperAmitTests.framework */,
+				00E8DCF9D21E58D366E7621F /* Pods_SuperAmitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE22DE4F1D23E45700F304FB /* SuperAmit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE22DE781D23E45800F304FB /* Build configuration list for PBXNativeTarget "SuperAmit" */;
+			buildPhases = (
+				962CF9F0BE5A6D05F0989C37 /* [CP] Check Pods Manifest.lock */,
+				AE22DE4C1D23E45700F304FB /* Sources */,
+				AE22DE4D1D23E45700F304FB /* Frameworks */,
+				AE22DE4E1D23E45700F304FB /* Resources */,
+				2B38E8B99DFD7DD50A6D8371 /* [CP] Embed Pods Frameworks */,
+				C0623C88C0D4B0E43AB343F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperAmit;
+			productName = SuperAmit;
+			productReference = AE22DE501D23E45700F304FB /* SuperAmit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE22DE631D23E45800F304FB /* SuperAmitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE22DE7B1D23E45800F304FB /* Build configuration list for PBXNativeTarget "SuperAmitTests" */;
+			buildPhases = (
+				E4846C8B633F4631272A3D12 /* [CP] Check Pods Manifest.lock */,
+				AE22DE601D23E45800F304FB /* Sources */,
+				AE22DE611D23E45800F304FB /* Frameworks */,
+				AE22DE621D23E45800F304FB /* Resources */,
+				CD62C3587A67BEA95A710915 /* [CP] Embed Pods Frameworks */,
+				7701D30A034AD85383EC21FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE22DE661D23E45800F304FB /* PBXTargetDependency */,
+			);
+			name = SuperAmitTests;
+			productName = SuperAmitTests;
+			productReference = AE22DE641D23E45800F304FB /* SuperAmitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE22DE6E1D23E45800F304FB /* SuperAmitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE22DE7E1D23E45800F304FB /* Build configuration list for PBXNativeTarget "SuperAmitUITests" */;
+			buildPhases = (
+				7621748EC11D5A7156418A18 /* [CP] Check Pods Manifest.lock */,
+				AE22DE6B1D23E45800F304FB /* Sources */,
+				AE22DE6C1D23E45800F304FB /* Frameworks */,
+				AE22DE6D1D23E45800F304FB /* Resources */,
+				7292D394E896BCBE4517DD4B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE22DE711D23E45800F304FB /* PBXTargetDependency */,
+			);
+			name = SuperAmitUITests;
+			productName = SuperAmitUITests;
+			productReference = AE22DE6F1D23E45800F304FB /* SuperAmitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE22DE481D23E45700F304FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					AE22DE4F1D23E45700F304FB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AE22DE631D23E45800F304FB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AE22DE4F1D23E45700F304FB;
+					};
+					AE22DE6E1D23E45800F304FB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AE22DE4F1D23E45700F304FB;
+					};
+				};
+			};
+			buildConfigurationList = AE22DE4B1D23E45700F304FB /* Build configuration list for PBXProject "SuperAmit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE22DE471D23E45700F304FB;
+			productRefGroup = AE22DE511D23E45700F304FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE22DE4F1D23E45700F304FB /* SuperAmit */,
+				AE22DE631D23E45800F304FB /* SuperAmitTests */,
+				AE22DE6E1D23E45800F304FB /* SuperAmitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE22DE4E1D23E45700F304FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE22DE5E1D23E45700F304FB /* LaunchScreen.storyboard in Resources */,
+				AE22DE881D2A836800F304FB /* GoogleService-Info.plist in Resources */,
+				AE22DE5B1D23E45700F304FB /* Assets.xcassets in Resources */,
+				AE22DE591D23E45700F304FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE22DE621D23E45800F304FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE22DE6D1D23E45800F304FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B38E8B99DFD7DD50A6D8371 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperAmit/Pods-SuperAmit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7292D394E896BCBE4517DD4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperAmitUITests/Pods-SuperAmitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7621748EC11D5A7156418A18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7701D30A034AD85383EC21FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperAmitTests/Pods-SuperAmitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962CF9F0BE5A6D05F0989C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0623C88C0D4B0E43AB343F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperAmit/Pods-SuperAmit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD62C3587A67BEA95A710915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperAmitTests/Pods-SuperAmitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4846C8B633F4631272A3D12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE22DE4C1D23E45700F304FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4D86321D34CD41001E1FEF /* Products List.swift in Sources */,
+				AEF445461D2E7310004B4E2E /* MainPage.swift in Sources */,
+				AE22DE861D2A5C4B00F304FB /* Register.swift in Sources */,
+				AE22DE561D23E45700F304FB /* Login.swift in Sources */,
+				AEF445481D3241E8004B4E2E /* Buying online.swift in Sources */,
+				AE006C191D58A314003BA6DC /* ClientService.swift in Sources */,
+				AE22DE541D23E45700F304FB /* AppDelegate.swift in Sources */,
+				AE006C151D584E87003BA6DC /* Discount campaign cell.swift in Sources */,
+				AEC053FD1D464CF600940276 /* Payment.swift in Sources */,
+				AEF445441D2D4A0B004B4E2E /* ForgotPassword.swift in Sources */,
+				AE006C111D4F587D003BA6DC /* Last invitation cell.swift in Sources */,
+				AEC053FA1D3DF8FE00940276 /* Shopping List cell.swift in Sources */,
+				AE006C1B1D5A1479003BA6DC /* Location.swift in Sources */,
+				AE196D2A1D3A5134007FBA94 /* Shopping List Before Payment.swift in Sources */,
+				AE4D862E1D33A895001E1FEF /* Buying online cell.swift in Sources */,
+				AE006C131D5672B7003BA6DC /* UpdateInfo.swift in Sources */,
+				AEF4454A1D324234004B4E2E /* Last invitation.swift in Sources */,
+				AEF4454C1D324691004B4E2E /* MainPageCell.swift in Sources */,
+				AE4D86341D34D424001E1FEF /* Product List Cell.swift in Sources */,
+				AE4D863B1D35FFFE001E1FEF /* ListOfProducts.swift in Sources */,
+				AE006C171D585363003BA6DC /* DiscountCampaign.swift in Sources */,
+				AE4D86391D350FC0001E1FEF /* Product.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE22DE601D23E45800F304FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE22DE691D23E45800F304FB /* SuperAmitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE22DE6B1D23E45800F304FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE22DE741D23E45800F304FB /* SuperAmitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE22DE661D23E45800F304FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE22DE4F1D23E45700F304FB /* SuperAmit */;
+			targetProxy = AE22DE651D23E45800F304FB /* PBXContainerItemProxy */;
+		};
+		AE22DE711D23E45800F304FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE22DE4F1D23E45700F304FB /* SuperAmit */;
+			targetProxy = AE22DE701D23E45800F304FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE22DE571D23E45700F304FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE22DE581D23E45700F304FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE22DE5C1D23E45700F304FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE22DE5D1D23E45700F304FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE22DE761D23E45800F304FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE22DE771D23E45800F304FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE22DE791D23E45800F304FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA352754433C1AD1287BF55 /* Pods-SuperAmit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperAmit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperAmit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE22DE7A1D23E45800F304FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA70D7A6F0BF9ADD93FF8F9 /* Pods-SuperAmit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperAmit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperAmit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE22DE7C1D23E45800F304FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperAmitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperAmitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperAmit.app/SuperAmit";
+			};
+			name = Debug;
+		};
+		AE22DE7D1D23E45800F304FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperAmitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperAmitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperAmit.app/SuperAmit";
+			};
+			name = Release;
+		};
+		AE22DE7F1D23E45800F304FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperAmitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperAmitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperAmit;
+			};
+			name = Debug;
+		};
+		AE22DE801D23E45800F304FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperAmitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SuperAmitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperAmit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE22DE4B1D23E45700F304FB /* Build configuration list for PBXProject "SuperAmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE22DE761D23E45800F304FB /* Debug */,
+				AE22DE771D23E45800F304FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE22DE781D23E45800F304FB /* Build configuration list for PBXNativeTarget "SuperAmit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE22DE791D23E45800F304FB /* Debug */,
+				AE22DE7A1D23E45800F304FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE22DE7B1D23E45800F304FB /* Build configuration list for PBXNativeTarget "SuperAmitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE22DE7C1D23E45800F304FB /* Debug */,
+				AE22DE7D1D23E45800F304FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE22DE7E1D23E45800F304FB /* Build configuration list for PBXNativeTarget "SuperAmitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE22DE7F1D23E45800F304FB /* Debug */,
+				AE22DE801D23E45800F304FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE22DE481D23E45700F304FB /* Project object */;
+}
